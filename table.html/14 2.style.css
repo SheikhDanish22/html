@@ -1,0 +1,36 @@
+body{
+    background-color: red;
+}
+.content h1 {
+    font-size: 60px;
+    color: white;
+    text-align: center;
+}
+.content p {
+    color: yellow;
+    font-size: 40px;
+}
+/* Tablet view */
+@media screen and (max-width:768px){
+    body{
+        background-color: yellow;
+    }
+}
+.content h1 {
+    color: red;
+    font-size: 30px;
+}
+/* mobile view */
+@media  screen and (max-width: 425px) {
+    body {
+        background-color: blue;
+    }
+    
+}
+.content h1 {
+    font-size: 30px;
+}
+.content p {
+    background-color: yellow;
+}
+

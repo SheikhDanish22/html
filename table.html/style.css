@@ -1,0 +1,127 @@
+/*{
+    color: rgb(117, 23, 23);
+    background-color: yellow;
+}
+#heading{
+    color:blue;
+    background-color: rgb(242, 109, 131);
+}
+.main-content{
+    background-color: aqua;
+    color: blue;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-weight: 900;
+    line-height: 1;
+}*/
+
+/* univarsal selactor*/
+*{
+    color:red;
+}
+
+/* Multipal selector and nasted */
+#myheading,
+/*div .new,
+a{
+    background-color: rgb(255, 255, 45);
+}
+#myheading{
+
+    font-size: 60px;
+    text-align: center;
+    text-transform: capitalize;
+    text-decoration: underline;
+    letter-spacing: 5px;
+   /* color:rgb(rgb(222, 165, 165), rgb(98, 200, 98), blue)
+   color: #006300;
+   background-color: yellow;
+   width:500px;
+   height: 200px;
+   border-width: 5px;
+   border-style: solid;
+   border-color: red;
+   /*shorted
+   border:5px dashed blue;
+
+
+}
+
+
+.box{
+    width: 500px;
+    border-top: 3px solid blue;
+    border-bottom: 3px dotted red;
+    border-left: 3px dashed green;
+    border-right: 5px solid yellow;
+
+
+}
+.box1{
+    color: red;
+    font-size: 25px;
+    border:4px solid blue;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius:10px ;
+}
+.box2{
+    width: 300px;
+    height: 300px;
+    border: 3px solid red;
+    border-radius: 150px;
+}
+
+div p {
+    background-color: yellow;
+}
+Direct child
+#mydiv > p {
+    background-color: red;
+}
+next sibling
+#mydiv + p {
+    background-color: pink;
+}
+subsequent siblings
+#mydiv ~ p {
+    background-color: blue;
+}
+by attribute name
+input[type="number"]{
+    background-color: green;
+    height: 30px;
+}
+input[type="text"]{
+    background-color: yellow;
+}
+a[target="_blank"]{
+    background-color: pink;
+}
+li:first-child{
+    background-color: pink;
+}
+li:last-child{
+    background-color: greenyellow;
+}
+li:nth-child(8){
+    background-color: lightblue;
+}
+li:nth-child(2n){
+    background-color: yellowgreen;
+}
+every odd,even
+li:nth-child(odd){
+    background-color: rgb(68, 137, 137);
+}
+h1::after{
+    content:' hii';
+}
+.form::after {
+    content: "*";
+    color:black;
+    padding: 3px;*/
+ */
+

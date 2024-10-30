@@ -1,0 +1,17 @@
+div {
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    padding: right 20%;
+    
+
+    
+}
+a{
+    text-decoration: left;
+    color: rgb(59, 176, 176);
+}
+li{
+    list-style-type: none;
+    display: inline;
+}

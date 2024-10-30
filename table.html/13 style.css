@@ -1,0 +1,31 @@
+.container{
+    height: 400px;
+    background-color: lightblue;
+    display: grid;
+  /*  grid-template-columns: 100px 100px 100px 100px;
+  grid-template-columns: repeat(6,auto);
+  grid-template-columns: 100px auto 100px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;*/
+  grid-template-columns: repeat(4,1fr);
+  column-gap: 20px;
+  row-gap: 30px;
+  grid-gap: 20px;
+  grid-template-rows: 50px 100px 200px;
+
+
+}
+.item{
+    border: 3px solid blue;
+}
+.item1{
+    grid-column: 1/4;
+}
+.item3{
+    grid-row: 2/4;
+}
+.item1 {
+    grid-column: 1 / span 3;
+}
+.item3 {
+    grid-row: 2 / span 3;
+}

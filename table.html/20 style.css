@@ -1,0 +1,97 @@
+/*.container {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.item img {
+    width: 100%;
+}
+
+/* tablet view 
+@media screen and (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+    
+}*/
+
+.container {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    
+    justify-content: center;
+    align-items: center;
+}
+.item img {
+    width: 100%
+}
+/*tablet view*/ 
+@media screen and (max-width: 768px) {
+    .container {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+/* mobile 
+@media screen  and (max-width: 425px) {
+    .container{
+        grid-template-columns: 1fr;
+    }
+    
+}*/
+
+
+/* box new */
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    margin: 100px;
+    animation-name: example;
+    animation-duration: 3s;
+    animation-iteration-count: 3;
+    animation-timing-function: ease;
+    animation-delay: 3s;
+    animation-iteration-count: infinite;
+    position: relative;
+
+    /* transition-delay: 2s; */
+    /* transition: all 3s linear; */
+}
+
+.box:hover {
+  /*  transform: translateY(100px,200px);*/
+    background-color: yellow;
+   /* transform: rotate(180deg);*/
+   /*transform: scale(2,3);*/
+  /* transform: skewX(30deg);*/
+  /* transform: skew(40deg,50deg); */
+
+
+}
+@keyframes example {
+    from{
+        background-color: red;
+        top: 0px;
+        left: 200px;
+    }
+    to{
+        background-color: yellow;
+        /* width: 400px; */
+        top: 200px;
+        left: 200px;
+    }
+
+50%{background-color: green;
+    top: 200px;
+    left: 0px;
+
+    
+}
+100%{background-color: green;
+    top: 0px;
+    left: 200px;
+}
+}
